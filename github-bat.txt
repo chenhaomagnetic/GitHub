@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m 'Initial Commit'
+
+git remote add origin git@github.com:chenhaomagnetic/bat.git
+git push -u origin master

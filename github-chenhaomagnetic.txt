@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m '1 Commit'
+
+git remote add origin https://github.com/chenhaomagnetic/magnetotelluric-python-3-1.0.git
+git push -u origin master
