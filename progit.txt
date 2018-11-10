@@ -1,0 +1,19 @@
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --list
+
+git config user.name
+#####the second chapter
+$ git init
+$ git add *.c
+$ git add LICENSE
+$ git commit -m 'initial project version'
+
+$ git status -s
+$ git diff
+
+$ git commit -a
+$ git rm
+
+$ git mv file_from file_to
+$ git log
