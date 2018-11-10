@@ -1,6 +1,23 @@
 git init
 git add .
-git commit -m 'Initial Commit'
+git commit -m '3 Commit'
 
-git remote add origin git@github.com:chenhaomagnetic/bat.git
+
+
+git remote add origin git@github.com:chenhaomagnetic/Batch.git
 git push -u origin master
+
+
+
+##########################
+second time to modify the project 
+
+git clone https://github.com/***
+git init
+######delete file / folder
+git rm FILE  
+git rm -r ***
+
+git commit -m "log message"
+
+git push origin master
