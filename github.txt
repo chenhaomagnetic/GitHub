@@ -1,10 +1,8 @@
 git init
 git add .
-git commit -m "3 Commit"
-
-git remote add origin git@github.com:chenhaomagnetic/GitHub.git 
+git commit -m "3 Commit" 
 git push -u origin master
-git push origin master
+git push 
 
 
 ##################################
@@ -12,61 +10,15 @@ git config --global user.email "chenhaomagnetic@gmail.com"
 git config user.email 
 ls -ah
 git diff
+git log
 #######
-git init
-git add
-git status
-git commit -m '1 Commit'
-git push
 ##################
 problem:
-git remote rm origin
 git push -uf origin master
 rm -rf .git
-###########################
-
-ssh-keygen -t rsa -C 'chenhaomagnetic@gmail.com'
-ssh git@github.com
-
-#############
-git branch dev    # 建立 dev 分支
-$ git branch  
-
-###delete the branch
-git branch -D dev  
-
-git checkout -b dev
-git branch
-
- git commit -am "change 3 in dev
- 
-####git reflog
-####git count-objects
-####git gc
-####tree .git
-####git log
- 
- 
-git clone
-git remote
-git fetch
-git pull
-git push
-
-git remote -v
-git remote add
-git remote show
-git remote rm
-git remote rename
-
-git fetch
-git fetch origin master
 
 
 git branch -a
-
 git pull <远程主机名> <远程分支名>:<本地分支名>
-
 git push <远程主机名> <本地分支名>:<远程分支名>
-
 git stash list

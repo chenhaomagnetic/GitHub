@@ -1,0 +1,6 @@
+###########################
+
+ssh-keygen -t rsa -C 'chenhaomagnetic@gmail.com'
+ssh git@github.com
+
+#############
